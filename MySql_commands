@@ -1,0 +1,7 @@
+create database employeemanagement;
+use employeemanagement;
+create table login(username varchar(30),password varchar(30));
+select * from login;
+insert into login values("Difrina","Difri@2003");
+create table employee(name varchar(40),fname varchar(40),dob varchar(40),salary varchar(40),address varchar(40),phone varchar(40),email varchar(40),education varchar(40),designation varchar(40),aadhar varchar(40),empID varchar(40));
+select * from employee;
